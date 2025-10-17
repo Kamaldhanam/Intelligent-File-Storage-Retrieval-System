@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS file_storage;
+
+USE file_storage;
+
+CREATE TABLE IF NOT EXISTS files (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    filename VARCHAR(255) NOT NULL,
+    keywords VARCHAR(255),
+    uploader VARCHAR(50),
+    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    s3_key VARCHAR(255) NOT NULL
+);
