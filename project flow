@@ -1,0 +1,12 @@
+file_storage_system/
+│
+├── src/
+│   ├── Main.java                 # Entry point
+│   ├── FileMetadata.java         # Metadata object
+│   ├── FileManager.java          # Handles upload/download & metadata
+│   ├── SearchIndex.java          # Trie/HashMap search index
+│   └── S3Manager.java            # S3 integration
+├── sql/
+│   └── metadata.sql              # Metadata storage schema
+├── Dockerfile                    # For EC2 deployment
+└── README.md
