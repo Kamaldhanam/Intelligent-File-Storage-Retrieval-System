@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class FileManager {
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/file_storage";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "yourpassword";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/kamal_file";
+    private static final String DB_USER = "kamal";
+    private static final String DB_PASS = "kamal@123";
 
     private SearchIndex index = new SearchIndex();
 
