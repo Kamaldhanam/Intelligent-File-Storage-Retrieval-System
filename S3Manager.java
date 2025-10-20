@@ -8,7 +8,7 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 import java.io.File;
 
 public class S3Manager {
-    private static final String BUCKET_NAME = "your-s3-bucket-name";
+    private static final String BUCKET_NAME = "kamal-s3-bucket";
 
     public static void uploadFile(String filePath, String s3Key) {
         try {
