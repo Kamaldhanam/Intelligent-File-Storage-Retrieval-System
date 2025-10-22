@@ -7,6 +7,5 @@ file_storage_system/
 │   ├── SearchIndex.java          # Trie/HashMap search index
 │   └── S3Manager.java            # S3 integration
 ├── sql/
-│   └── metadata.sql              # Metadata storage schema
-├── Dockerfile                    # For EC2 deployment
-└── README.md
+   └── metadata.sql              # Metadata storage schema
+
